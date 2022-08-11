@@ -1,0 +1,26 @@
+{
+  "name": "vue-app",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite serve --open",
+    "start": "vite serve --host 0.0.0.0",
+    "build": "vite build",
+    "build-start": "vite build --watch",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "await-to-js": "^3.0.0",
+    "pinia": "^2.0.13",
+    "tesseract.js": "^2.1.5",
+    "vant": "^3.4.8",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.14"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "sass": "^1.51.0",
+    "vite": "^2.9.5",
+    "vite-plugin-style-import": "^1.4.1"
+  }
+}
